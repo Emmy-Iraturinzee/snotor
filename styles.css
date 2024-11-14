@@ -1,0 +1,487 @@
+@font-face {
+    font-family: 'Jost';
+    font-style: italic;
+    font-weight: 100;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/jost/v15/92zJtBhPNqw73oHH7BbQp4-B6XlrZu0EBIokmw.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'Jost';
+    font-style: italic;
+    font-weight: 200;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/jost/v15/92zJtBhPNqw73oHH7BbQp4-B6XlrZm0FBIokmw.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'Jost';
+    font-style: italic;
+    font-weight: 300;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/jost/v15/92zJtBhPNqw73oHH7BbQp4-B6XlrZrMFBIokmw.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'Jost';
+    font-style: italic;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/jost/v15/92zJtBhPNqw73oHH7BbQp4-B6XlrZu0FBIokmw.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'Jost';
+    font-style: italic;
+    font-weight: 500;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/jost/v15/92zJtBhPNqw73oHH7BbQp4-B6XlrZt8FBIokmw.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'Jost';
+    font-style: italic;
+    font-weight: 600;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/jost/v15/92zJtBhPNqw73oHH7BbQp4-B6XlrZjMCBIokmw.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'Jost';
+    font-style: italic;
+    font-weight: 700;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/jost/v15/92zJtBhPNqw73oHH7BbQp4-B6XlrZgoCBIokmw.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'Jost';
+    font-style: italic;
+    font-weight: 800;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/jost/v15/92zJtBhPNqw73oHH7BbQp4-B6XlrZm0CBIokmw.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'Jost';
+    font-style: italic;
+    font-weight: 900;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/jost/v15/92zJtBhPNqw73oHH7BbQp4-B6XlrZkQCBIokmw.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 100;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/jost/v15/92zPtBhPNqw79Ij1E865zBUv7myjJDVBNI0.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 200;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/jost/v15/92zPtBhPNqw79Ij1E865zBUv7mwjJTVBNI0.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/jost/v15/92zPtBhPNqw79Ij1E865zBUv7mz9JTVBNI0.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/jost/v15/92zPtBhPNqw79Ij1E865zBUv7myjJTVBNI0.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/jost/v15/92zPtBhPNqw79Ij1E865zBUv7myRJTVBNI0.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/jost/v15/92zPtBhPNqw79Ij1E865zBUv7mx9IjVBNI0.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/jost/v15/92zPtBhPNqw79Ij1E865zBUv7mxEIjVBNI0.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 800;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/jost/v15/92zPtBhPNqw79Ij1E865zBUv7mwjIjVBNI0.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 900;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/jost/v15/92zPtBhPNqw79Ij1E865zBUv7mwKIjVBNI0.ttf) format('truetype');
+  }
+/* to white text on hover */ 
+.icon-box:hover .elementor-icon-box-title{
+    color: white !important;
+    transition: all 0.2s;
+}
+
+.icon-box:hover .elementor-icon-box-description{
+   color: #9EB5CD !important; 
+   transition: all 0.5s;
+}
+
+/* to show text on hover */ 
+.imt {    
+      opacity:0;    
+      transition-duration:0s;
+      }
+
+.imt:hover {   
+      opacity:1;
+      }
+      .main-contact-form .elementor-field {
+	
+        background-color: #ffffff;
+        background-repeat: no-repeat;
+        background-position: 14px 10px;
+        background-size: 20px 20px;
+        transition: border-color 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
+    }
+    
+    .main-contact-form #form-field-user {
+        background-image: url(wp-content/uploads/icons/icon-user.svg);
+    }
+    
+    .main-contact-form #form-field-letter {
+        background-image: url(wp-content/uploads/icons/icon-letter.svg);
+    }
+    
+    .main-contact-form #form-field-phone {
+        background-image: url(wp-content/uploads/icons/icon-phone.svg);
+    }
+    
+    .main-contact-form #form-field-pen {
+        background-image: url(wp-content/uploads/icons/icon-pen.svg);
+    }
+    
+    .main-contact-form #form-field-user,
+    .main-contact-form #form-field-letter,
+    .main-contact-form #form-field-phone, 
+    .main-contact-form #form-field-pen {
+        padding-left: 44px;
+    }
+    
+    .main-contact-form .elementor-field-group-customFile label {
+        position: relative;
+        z-index: 1;
+        padding-left: 32px;
+        cursor: pointer;
+        
+    }
+    
+    .main-contact-form .elementor-field-group-customFile label span {
+        color: #000811 !important;
+    }
+    
+    .main-contact-form .elementor-field-group-customFile label::before {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 0;
+        z-index: 1;
+        width: 24px;
+        height: 24px;
+        background-image: url(wp-content/uploads/icons/icon-file.svg);
+        background-position: center;
+        background-repeat: no-repeat;
+        transform: translateY(-50%);
+    }
+    
+    .main-contact-form #form-field-customFile{
+        position: absolute;
+        z-index: -1;
+        opacity: 0;
+        visibility: hidden;
+    }
+    .admin-bar #site-header.transparent-header {
+        transform: translateY(32px);
+    }
+    
+    #site-header.transparent-header{
+        position: fixed !important;
+        top: 0;
+        left: 0;
+        width: 100%;
+        transition: background-color 0.4s ease-out;
+    }
+    #site-header.transparent-header--bg {
+        background-color: rgba(0, 47, 98, 1) !important;
+    }
+    
+/* CUSTOM TABS WITH ARROW START */
+
+.tabs-w-arrows .eael-tab-item-trigger svg {
+	transition: inherit;
+}
+
+.tabs-w-arrows .eael-tab-item-trigger {
+	transition: fill 0.2s cubic-bezier(0.33, 1, 0.68, 1), color 0.2s cubic-bezier(0.33, 1, 0.68, 1)  
+}
+
+@media (min-width: 780px) {
+
+	.tabs-w-arrows .eael-advance-tabs .eael-tabs-nav>ul {
+		align-items: stretch;
+	}
+
+	.tabs-w-arrows .eael-advance-tabs .eael-tabs-nav>ul li {
+		align-items: flex-start;
+	}
+
+	.tabs-w-arrows .eael-tab-item-trigger:not(:last-child)::before {
+		position: absolute;
+		top: 24px;
+		right: -40px;
+		z-index: -1;
+		width: 102px;
+		height: 28px;
+		background-image: url('wp-content/uploads/2022/05/tab-deco-arrow.svg');
+		background-repeat: no-repeat;
+		background-position: center;
+		content: '';
+	}
+
+	.tabs-w-arrows .eael-tab-item-trigger.active {
+		position: relative;
+		border-color: transparent !important;
+	}
+
+	.tabs-w-arrows .eael-tab-item-trigger.active::after {
+		position: absolute;
+		bottom: -36px;
+		z-index: -1;
+		display: block !important;
+		width: 70px;
+		height: 37px;
+		border: none;
+		background-image: url('wp-content/uploads/2022/05/icon-arrow-down.svg');
+		background-repeat: no-repeat;
+		background-position: center;
+		content: '';
+	}
+
+	.tabs-w-arrows .eael-tab-item-trigger.active .eael-tab-title::before, 
+	.tabs-w-arrows .eael-tab-item-trigger.active .eael-tab-title::after {
+		position: absolute;
+		left: 0;
+		bottom: -1px;
+		z-index: -1;
+		width: calc(50% - 35px);
+		height: 1px;
+		background-color: #1AA1CA;
+		content: '';
+	}
+
+	.tabs-w-arrows .eael-tab-item-trigger.active .eael-tab-title::after {
+
+		left: auto;
+		right: 0;
+	}
+}
+
+@media (min-width: 992px) {
+	.tabs-w-arrows .eael-tab-item-trigger:first-child::before {
+		right: -60px;
+	}
+
+	.tabs-w-arrows .eael-tab-item-trigger:nth-child(2)::before {
+		right: -35px;
+	}
+
+	.tabs-w-arrows .eael-tab-item-trigger:nth-child(3)::before {
+		right: -35px;
+	}
+}
+
+@media (max-width: 991.5px) {
+
+	.tabs-w-arrows .eael-tab-item-trigger::before {
+		display: none !important;
+	}
+}
+
+/* CUSTOM TABS WITH ARROW END */
+
+
+nav.main-navigation, #mobile-dropdown, .site-footer {
+	font-family: 'Jost', sans-serif;
+}
+
+
+a:focus,
+.focus a {
+	outline: none !important;
+}
+
+.align-items-start .elementor-icon-list-item { 
+	align-items: flex-start !important; 
+}
+
+
+
+/* CUSTOM DROPDOWN MENU START */
+
+.hide-title .menu-link {
+	display: none !important;
+}
+
+.megamenu-widget-txt p {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 150%;
+	font-family: 'Jost';
+	padding: 0px 16px 16px 16px;
+}
+.megamenu-widget-txt__title {
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 120%;
+	margin-bottom: 19px;
+	color: #000811;
+	padding: 0px 16px 0px 16px;
+}
+
+.megamenu-widget-txt {
+	border-right: 1px dotted #96B6E7;
+}
+
+.navigation li.megamenu-li.auto-mega .megamenu.col-2 {	width: 900px
+}
+
+.navigation .megamenu>li>a.menu-link {
+	font-size: 20px;
+	font-weight: 500;
+}
+
+
+.mt-50 {
+	margin-top: 24px;
+}
+
+@media (max-width: 959px) {
+	.mt-50 {
+	margin-top: 0px;
+}
+	.mobile-none {
+	display: none;
+}
+
+}
+
+/* CUSTOM DROPDOWN MENU END */
+
+
+.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload),
+.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload) * {
+    background-image: none !important;
+}
+@media screen and (max-height: 1024px) {
+    .e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload),
+    .e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload) * {
+        background-image: none !important;
+    }
+}
+@media screen and (max-height: 640px) {
+    .e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload),
+    .e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload) * {
+        background-image: none !important;
+    }
+}
+a{color:#759ac0}a .owp-icon use{stroke:#759ac0}a:hover{color:#1aa1ca}a:hover .owp-icon use{stroke:#1aa1ca}.container{width:1120px}#scroll-top{border-radius:4px}#scroll-top{background-color:rgba(26,161,202,0.46)}#scroll-top:hover{background-color:#1aa1ca}label,body div.wpforms-container-full .wpforms-form .wpforms-field-label{color:#9eb5cd}form input[type="text"],form input[type="password"],form input[type="email"],form input[type="url"],form input[type="date"],form input[type="month"],form input[type="time"],form input[type="datetime"],form input[type="datetime-local"],form input[type="week"],form input[type="number"],form input[type="search"],form input[type="tel"],form input[type="color"],form select,form textarea{padding:8px 10px 8px 14px}body div.wpforms-container-full .wpforms-form input[type=date],body div.wpforms-container-full .wpforms-form input[type=datetime],body div.wpforms-container-full .wpforms-form input[type=datetime-local],body div.wpforms-container-full .wpforms-form input[type=email],body div.wpforms-container-full .wpforms-form input[type=month],body div.wpforms-container-full .wpforms-form input[type=number],body div.wpforms-container-full .wpforms-form input[type=password],body div.wpforms-container-full .wpforms-form input[type=range],body div.wpforms-container-full .wpforms-form input[type=search],body div.wpforms-container-full .wpforms-form input[type=tel],body div.wpforms-container-full .wpforms-form input[type=text],body div.wpforms-container-full .wpforms-form input[type=time],body div.wpforms-container-full .wpforms-form input[type=url],body div.wpforms-container-full .wpforms-form input[type=week],body div.wpforms-container-full .wpforms-form select,body div.wpforms-container-full .wpforms-form textarea{padding:8px 10px 8px 14px;height:auto}form input[type="text"],form input[type="password"],form input[type="email"],form input[type="url"],form input[type="date"],form input[type="month"],form input[type="time"],form input[type="datetime"],form input[type="datetime-local"],form input[type="week"],form input[type="number"],form input[type="search"],form input[type="tel"],form input[type="color"],form select,form textarea{font-size:18px}body div.wpforms-container-full .wpforms-form input[type=date],body div.wpforms-container-full .wpforms-form input[type=datetime],body div.wpforms-container-full .wpforms-form input[type=datetime-local],body div.wpforms-container-full .wpforms-form input[type=email],body div.wpforms-container-full .wpforms-form input[type=month],body div.wpforms-container-full .wpforms-form input[type=number],body div.wpforms-container-full .wpforms-form input[type=password],body div.wpforms-container-full .wpforms-form input[type=range],body div.wpforms-container-full .wpforms-form input[type=search],body div.wpforms-container-full .wpforms-form input[type=tel],body div.wpforms-container-full .wpforms-form input[type=text],body div.wpforms-container-full .wpforms-form input[type=time],body div.wpforms-container-full .wpforms-form input[type=url],body div.wpforms-container-full .wpforms-form input[type=week],body div.wpforms-container-full .wpforms-form select,body div.wpforms-container-full .wpforms-form textarea{font-size:18px}form input[type="text"],form input[type="password"],form input[type="email"],form input[type="url"],form input[type="date"],form input[type="month"],form input[type="time"],form input[type="datetime"],form input[type="datetime-local"],form input[type="week"],form input[type="number"],form input[type="search"],form input[type="tel"],form input[type="color"],form select,form textarea,.woocommerce .woocommerce-checkout .select2-container--default .select2-selection--single{border-radius:4px}body div.wpforms-container-full .wpforms-form input[type=date],body div.wpforms-container-full .wpforms-form input[type=datetime],body div.wpforms-container-full .wpforms-form input[type=datetime-local],body div.wpforms-container-full .wpforms-form input[type=email],body div.wpforms-container-full .wpforms-form input[type=month],body div.wpforms-container-full .wpforms-form input[type=number],body div.wpforms-container-full .wpforms-form input[type=password],body div.wpforms-container-full .wpforms-form input[type=range],body div.wpforms-container-full .wpforms-form input[type=search],body div.wpforms-container-full .wpforms-form input[type=tel],body div.wpforms-container-full .wpforms-form input[type=text],body div.wpforms-container-full .wpforms-form input[type=time],body div.wpforms-container-full .wpforms-form input[type=url],body div.wpforms-container-full .wpforms-form input[type=week],body div.wpforms-container-full .wpforms-form select,body div.wpforms-container-full .wpforms-form textarea{border-radius:4px}form input[type="text"]:focus,form input[type="password"]:focus,form input[type="email"]:focus,form input[type="tel"]:focus,form input[type="url"]:focus,form input[type="search"]:focus,form textarea:focus,.select2-drop-active,.select2-dropdown-open.select2-drop-above .select2-choice,.select2-dropdown-open.select2-drop-above .select2-choices,.select2-drop.select2-drop-above.select2-drop-active,.select2-container-active .select2-choice,.select2-container-active .select2-choices{border-color:#1aa1ca}body div.wpforms-container-full .wpforms-form input:focus,body div.wpforms-container-full .wpforms-form textarea:focus,body div.wpforms-container-full .wpforms-form select:focus{border-color:#1aa1ca}form input[type="text"],form input[type="password"],form input[type="email"],form input[type="url"],form input[type="date"],form input[type="month"],form input[type="time"],form input[type="datetime"],form input[type="datetime-local"],form input[type="week"],form input[type="number"],form input[type="search"],form input[type="tel"],form input[type="color"],form select,form textarea,.woocommerce .woocommerce-checkout .select2-container--default .select2-selection--single{background-color:#ffffff}body div.wpforms-container-full .wpforms-form input[type=date],body div.wpforms-container-full .wpforms-form input[type=datetime],body div.wpforms-container-full .wpforms-form input[type=datetime-local],body div.wpforms-container-full .wpforms-form input[type=email],body div.wpforms-container-full .wpforms-form input[type=month],body div.wpforms-container-full .wpforms-form input[type=number],body div.wpforms-container-full .wpforms-form input[type=password],body div.wpforms-container-full .wpforms-form input[type=range],body div.wpforms-container-full .wpforms-form input[type=search],body div.wpforms-container-full .wpforms-form input[type=tel],body div.wpforms-container-full .wpforms-form input[type=text],body div.wpforms-container-full .wpforms-form input[type=time],body div.wpforms-container-full .wpforms-form input[type=url],body div.wpforms-container-full .wpforms-form input[type=week],body div.wpforms-container-full .wpforms-form select,body div.wpforms-container-full .wpforms-form textarea{background-color:#ffffff}.theme-button,input[type="submit"],button[type="submit"],button,.button,body div.wpforms-container-full .wpforms-form input[type=submit],body div.wpforms-container-full .wpforms-form button[type=submit],body div.wpforms-container-full .wpforms-form .wpforms-page-button{border-radius:4px}body .theme-button,body input[type="submit"],body button[type="submit"],body button,body .button,body div.wpforms-container-full .wpforms-form input[type=submit],body div.wpforms-container-full .wpforms-form button[type=submit],body div.wpforms-container-full .wpforms-form .wpforms-page-button{background-color:#d40c28}body .theme-button:hover,body input[type="submit"]:hover,body button[type="submit"]:hover,body button:hover,body .button:hover,body div.wpforms-container-full .wpforms-form input[type=submit]:hover,body div.wpforms-container-full .wpforms-form input[type=submit]:active,body div.wpforms-container-full .wpforms-form button[type=submit]:hover,body div.wpforms-container-full .wpforms-form button[type=submit]:active,body div.wpforms-container-full .wpforms-form .wpforms-page-button:hover,body div.wpforms-container-full .wpforms-form .wpforms-page-button:active{background-color:#ba0b23}/* Header CSS */#site-logo #site-logo-inner,.oceanwp-social-menu .social-menu-inner,#site-header.full_screen-header .menu-bar-inner,.after-header-content .after-header-content-inner{height:60px}#site-navigation-wrap .dropdown-menu >li >a,.oceanwp-mobile-menu-icon a,.mobile-menu-close,.after-header-content-inner >a{line-height:60px}@media only screen and (max-width:959px){body.default-breakpoint #site-logo #site-logo-inner{height:50px}}@media only screen and (max-width:959px){body.default-breakpoint .oceanwp-mobile-menu-icon a,.mobile-menu-close{line-height:50px}}#site-header.has-header-media .overlay-header-media{background-color:rgba(0,0,0,0.5)}#site-logo #site-logo-inner a img,#site-header.center-header #site-navigation-wrap .middle-site-logo a img{max-width:145px}#site-header #site-logo #site-logo-inner a img,#site-header.center-header #site-navigation-wrap .middle-site-logo a img{max-height:33px}.effect-one #site-navigation-wrap .dropdown-menu >li >a.menu-link >span:after,.effect-three #site-navigation-wrap .dropdown-menu >li >a.menu-link >span:after,.effect-five #site-navigation-wrap .dropdown-menu >li >a.menu-link >span:before,.effect-five #site-navigation-wrap .dropdown-menu >li >a.menu-link >span:after,.effect-nine #site-navigation-wrap .dropdown-menu >li >a.menu-link >span:before,.effect-nine #site-navigation-wrap .dropdown-menu >li >a.menu-link >span:after{background-color:#d40c28}.effect-four #site-navigation-wrap .dropdown-menu >li >a.menu-link >span:before,.effect-four #site-navigation-wrap .dropdown-menu >li >a.menu-link >span:after,.effect-seven #site-navigation-wrap .dropdown-menu >li >a.menu-link:hover >span:after,.effect-seven #site-navigation-wrap .dropdown-menu >li.sfHover >a.menu-link >span:after{color:#d40c28}.effect-seven #site-navigation-wrap .dropdown-menu >li >a.menu-link:hover >span:after,.effect-seven #site-navigation-wrap .dropdown-menu >li.sfHover >a.menu-link >span:after{text-shadow:10px 0 #d40c28,-10px 0 #d40c28}#site-navigation-wrap .dropdown-menu >li >a{padding:0 24px}#site-navigation-wrap .dropdown-menu >li >a,.oceanwp-mobile-menu-icon a,#searchform-header-replace-close{color:#ffffff}#site-navigation-wrap .dropdown-menu >li >a .owp-icon use,.oceanwp-mobile-menu-icon a .owp-icon use,#searchform-header-replace-close .owp-icon use{stroke:#ffffff}#site-navigation-wrap .dropdown-menu >li >a:hover,.oceanwp-mobile-menu-icon a:hover,#searchform-header-replace-close:hover{color:#ffffff}#site-navigation-wrap .dropdown-menu >li >a:hover .owp-icon use,.oceanwp-mobile-menu-icon a:hover .owp-icon use,#searchform-header-replace-close:hover .owp-icon use{stroke:#ffffff}#site-navigation-wrap .dropdown-menu >.current-menu-item >a,#site-navigation-wrap .dropdown-menu >.current-menu-ancestor >a,#site-navigation-wrap .dropdown-menu >.current-menu-item >a:hover,#site-navigation-wrap .dropdown-menu >.current-menu-ancestor >a:hover{color:#1aa1ca}#site-navigation-wrap .dropdown-menu >li >a{background-color:rgba(255,255,255,0)}#site-navigation-wrap .dropdown-menu >li >a:hover,#site-navigation-wrap .dropdown-menu >li.sfHover >a{background-color:rgba(255,255,255,0)}#site-navigation-wrap .dropdown-menu >.current-menu-item >a,#site-navigation-wrap .dropdown-menu >.current-menu-ancestor >a,#site-navigation-wrap .dropdown-menu >.current-menu-item >a:hover,#site-navigation-wrap .dropdown-menu >.current-menu-ancestor >a:hover{background-color:rgba(255,255,255,0)}.dropdown-menu .sub-menu{min-width:30px}.dropdown-menu .sub-menu,#searchform-dropdown,.current-shop-items-dropdown{background-color:rgba(244,247,250,0.9)}.dropdown-menu .sub-menu,#searchform-dropdown,.current-shop-items-dropdown{border-color:rgba(255,255,255,0)}.dropdown-menu ul li.menu-item,.navigation >ul >li >ul.megamenu.sub-menu >li,.navigation .megamenu li ul.sub-menu{border-color:rgba(232,232,232,0)}.dropdown-menu ul li a.menu-link{color:#000811}.dropdown-menu ul li a.menu-link .owp-icon use{stroke:#000811}.dropdown-menu ul li a.menu-link:hover{color:#1b5ab8}.dropdown-menu ul li a.menu-link:hover .owp-icon use{stroke:#1b5ab8}.dropdown-menu ul li a.menu-link:hover{background-color:rgba(255,255,255,0)}.mobile-menu .hamburger-inner,.mobile-menu .hamburger-inner::before,.mobile-menu .hamburger-inner::after{background-color:rgba(244,247,250,0.9)}#sidr,#mobile-dropdown{background-color:rgba(244,247,250,0.9)}body .sidr a,body .sidr-class-dropdown-toggle,#mobile-dropdown ul li a,#mobile-dropdown ul li a .dropdown-toggle,#mobile-fullscreen ul li a,#mobile-fullscreen .oceanwp-social-menu.simple-social ul li a{color:#000811}#mobile-fullscreen a.close .close-icon-inner,#mobile-fullscreen a.close .close-icon-inner::after{background-color:#000811}/* Footer Widgets CSS */#footer-widgets{padding:24px 0 40px 0}@media (max-width:480px){#footer-widgets{padding:0}}#footer-widgets{background-color:#001123}#footer-widgets,#footer-widgets p,#footer-widgets li a:before,#footer-widgets .contact-info-widget span.oceanwp-contact-title,#footer-widgets .recent-posts-date,#footer-widgets .recent-posts-comments,#footer-widgets .widget-recent-posts-icons li .fa{color:#9eb5cd}#footer-widgets li,#footer-widgets #wp-calendar caption,#footer-widgets #wp-calendar th,#footer-widgets #wp-calendar tbody,#footer-widgets .contact-info-widget i,#footer-widgets .oceanwp-newsletter-form-wrap input[type="email"],#footer-widgets .posts-thumbnails-widget li,#footer-widgets .social-widget li a{border-color:#9eb5cd}#footer-widgets .contact-info-widget .owp-icon{border-color:#9eb5cd}#footer-widgets .footer-box a,#footer-widgets a{color:#9eb5cd}/* Footer Bottom CSS */#footer-bottom{padding:24px 0 24px 0}#footer-bottom{background-color:#001123}#footer-bottom,#footer-bottom p{color:#759ac0}#footer-bottom a:hover,#footer-bottom #footer-bottom-menu a:hover{color:#759ac0}/* Typography CSS */#site-navigation-wrap .dropdown-menu >li >a,#site-header.full_screen-header .fs-dropdown-menu >li >a,#site-header.top-header #site-navigation-wrap .dropdown-menu >li >a,#site-header.center-header #site-navigation-wrap .dropdown-menu >li >a,#site-header.medium-header #site-navigation-wrap .dropdown-menu >li >a,.oceanwp-mobile-menu-icon a{font-weight:500;font-style:normal;font-size:18px}.dropdown-menu ul li a.menu-link,#site-header.full_screen-header .fs-dropdown-menu ul.sub-menu li a{font-weight:500;font-style:normal;font-size:20px;line-height:1.5}.sidr-class-dropdown-menu li a,a.sidr-class-toggle-sidr-close,#mobile-dropdown ul li a,body #mobile-fullscreen ul li a{font-weight:500;font-style:normal;font-size:16px;line-height:2}
+
+.hero-button{
+    background-color: #0693e3 !important;
+}
+.elementor-button-text{
+    color:white !important;
+    
+    
+}
+.overlay1{
+    background-color:#0541634f !important ;
+}
+.eael-tabs-nav > ul li.active{
+    background-color:#054163 !important ;
+    
+}
+h3{
+    color:#054163 !important ;
+}
+
+#particles-background,
+#particles-foreground {
+  left: -51%;
+  top: -51%;
+  width: 202%;
+  height: 202%;
+  transform: scale3d(0.5, 0.5, 1);
+  z-index: -1;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes fade {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.25;
+  }
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+h1 {
+    overflow: hidden;
+    margin: 0 auto;
+    display: inline-block;
+        font-weight: normal;
+
+  }
+  h1:after{
+   content: '';
+    display: inline-block;
+    background-color: white;
+    margin-left: 2px;
+    height: 25px;
+  width: 4px;
+      animation: cursor 0.4s infinite;
+  }
+
+  /* The typewriter cursor effect */
+  @keyframes cursor {
+      0% { opacity: 1; }
+        49% { opacity: 1; }
+        50% { opacity: 0; }
+        100% { opacity: 0; }
+  }
+.hero-text{
+    line-height: 75px !important;
+}
